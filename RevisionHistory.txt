@@ -1,0 +1,23 @@
+﻿#-----------------------------------------------------
+# Revision history (B5T-007001 sample code for python)
+#-----------------------------------------------------
+
+ver 1.0 (2017/11/09)
+    - First release
+
+ver 1.1 (2017/12/21)
+    - Add Face Recognition function.
+    - Add setter/getter method for STB Library.
+    - Correction (file name, class name, method name)
+    - Add comments
+
+ver 1.2 (2018/07/05)
+    - Log format changes.
+      - Not to show  "Tracking ID" in STB_OFF.
+      - Minor chages.
+    - Fixed arg of hvc_p2_api.set_stb_pe_angle_use() in execution.py line 195.
+        pe_max_UD_angle -> pe_maxLR_angle
+    - Fixed
+      - Baudrate setting does not revert to the default after stop the program.
+      - Unproper disconnection after stop the program.
+    - Minor code changes.
